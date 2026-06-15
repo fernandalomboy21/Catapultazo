@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATAPULTAZO - El Juego de Mesa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Banner Principal Hero -->
+    <header class="banner hero" style="background-image: url('assets/catapultazo-juego.jpg');">
+        <div class="banner-overlay"></div>
+        <div class="banner-content">
+            <h1 class="titulo-principal">CATAPULTAZO</h1>
+            <p class="subtitulo">El juego de mesa donde la estrategia, la suerte y la competencia se combinan.</p>
+            <button class="btn btn-primary" onclick="scrollToSection('como-jugar')">Cómo jugar</button>
+        </div>
+    </header>
+
+    <!-- Sección 1: ¿Qué es Catapultazo? -->
+    <section class="seccion que-es">
+        <div class="container">
+            <h2>¿Qué es Catapultazo?</h2>
+            <p>Catapultazo es un juego de mesa para 3 o 4 jugadores, mayores de 12 años, diseñado para fomentar la competitividad y la diversión. Cada partida ofrece una experiencia intensa llena de emoción, estrategia y momentos inesperados.</p>
+        </div>
+    </section>
+
+    <!-- Sección 2: Vive la experiencia -->
+    <section class="seccion vive-experiencia">
+        <div class="container">
+            <h2>Vive la experiencia</h2>
+            <p>Juega con tus amigos y prepárate para vivir momentos llenos de risas, conflictos amistosos y nerviosismo. Utiliza la catapulta para alterar el juego, intercambia posiciones con otros jugadores o modifica el tablero para cambiar completamente el rumbo de la partida.</p>
+        </div>
+    </section>
+
+    <!-- Sección 3: Cómo jugar -->
+    <section class="seccion como-jugar" id="como-jugar">
+        <div class="container">
+            <h2>Cómo jugar</h2>
+            <div class="pasos">
+                <div class="paso">
+                    <div class="numero">1</div>
+                    <p>Posiciona el tablero en formación piramidal.</p>
+                </div>
+                <div class="paso">
+                    <div class="numero">2</div>
+                    <p>Revuelve el mazo y colócalo en el centro de la mesa.</p>
+                </div>
+                <div class="paso">
+                    <div class="numero">3</div>
+                    <p>Posiciona los peones al inicio del tablero.</p>
+                </div>
+                <div class="paso">
+                    <div class="numero">4</div>
+                    <p>Saca una carta para iniciar la partida.</p>
+                </div>
+                <div class="paso">
+                    <div class="numero">5</div>
+                    <p>Sigue las instrucciones de las cartas.</p>
+                </div>
+                <div class="paso">
+                    <div class="numero">6</div>
+                    <p>Deja la carta boca arriba en el mazo de descarte para finalizar tu turno.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección 4: Características -->
+    <section class="seccion caracteristicas">
+        <div class="container">
+            <h2>Características</h2>
+            <ul class="lista-caracteristicas">
+                <li>3 a 4 jugadores.</li>
+                <li>Mayores de 12 años.</li>
+                <li>Estrategia y suerte.</li>
+                <li>Partidas dinámicas.</li>
+                <li>Diversión garantizada.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección Final: CTA -->
+    <section class="seccion cta-final">
+        <div class="container">
+            <h2>¿Estás listo para jugar?</h2>
+            <button class="btn btn-primary btn-grande">Comenzar la aventura</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 CATAPULTAZO. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function scrollToSection(id) {
+            const element = document.getElementById(id);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+</html>
