@@ -1,0 +1,115 @@
+<!-- HERO / PORTADA -->
+<header class="hero">
+    <div class="overlay"></div>
+    <div class="container hero-content">
+        <h1 class="titulo-principal">CATAPULTAZO</h1>
+        <p class="subtitulo">El juego de mesa donde la estrategia puede cambiar en un segundo.</p>
+        <button class="btn btn-primary btn-grande" onclick="scrollToSection('que-es')">
+            Empezar la aventura
+        </button>
+    </div>
+</header>
+
+<!-- SECCIÓN 1 -->
+<section class="seccion que-es" id="que-es">
+    <div class="container card">
+        <h2>🎯 ¿Qué es Catapultazo?</h2>
+        <p>
+            Catapultazo es un juego de mesa competitivo para <strong>3 a 4 jugadores</strong>, diseñado para mayores de <strong>12 años</strong>.
+            Cada partida combina estrategia, caos controlado y decisiones rápidas que pueden cambiar el destino del juego en segundos.
+        </p>
+    </div>
+</section>
+
+<!-- SECCIÓN 2 -->
+<section class="seccion vive-experiencia">
+    <div class="container card destacada">
+        <h2>⚡ Vive la experiencia</h2>
+        <p>
+            En Catapultazo nada está asegurado. Usa la <strong>catapulta</strong> para sabotear rivales, cambiar posiciones o alterar el tablero.
+            Cada jugada puede generar risas, tensión o una revancha inmediata.
+        </p>
+
+        <div class="highlight-box">
+            🔥 Cada partida es diferente. Ninguna estrategia es eterna.
+        </div>
+    </div>
+</section>
+
+<!-- SECCIÓN 3 -->
+<section class="seccion como-jugar" id="como-jugar">
+    <div class="container">
+        <h2>🧠 Cómo jugar</h2>
+
+        <div class="grid-pasos">
+            <div class="paso">
+                <span class="numero">1</span>
+                <p>Arma el tablero en formación inicial.</p>
+            </div>
+
+            <div class="paso">
+                <span class="numero">2</span>
+                <p>Baraja el mazo y colócalo en el centro.</p>
+            </div>
+
+            <div class="paso">
+                <span class="numero">3</span>
+                <p>Ubica los peones en la zona de inicio.</p>
+            </div>
+
+            <div class="paso">
+                <span class="numero">4</span>
+                <p>Roben una carta para iniciar la partida.</p>
+            </div>
+
+            <div class="paso">
+                <span class="numero">5</span>
+                <p>Ejecuta la acción indicada en la carta.</p>
+            </div>
+
+            <div class="paso">
+                <span class="numero">6</span>
+                <p>Finaliza tu turno descartando la carta.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECCIÓN 4 -->
+<section class="seccion caracteristicas">
+    <div class="container card">
+        <h2>⭐ Características del juego</h2>
+
+        <div class="tags">
+            <span>👥 3–4 jugadores</span>
+            <span>🎂 +12 años</span>
+            <span>🎲 Estrategia + azar</span>
+            <span>⚔️ Competitivo</span>
+            <span>⚡ Partidas rápidas</span>
+            <span>🎉 Alta rejugabilidad</span>
+        </div>
+    </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="seccion cta-final">
+    <div class="container card-cta">
+        <h2>🚀 ¿Listo para el desafío?</h2>
+        <p>El tablero te espera. La pregunta es… ¿sobrevivirás al Catapultazo?</p>
+
+        <button class="btn btn-primary btn-grande pulse">
+            Jugar ahora
+        </button>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2026 CATAPULTAZO — Todos los derechos reservados.</p>
+</footer>
+
+<script>
+    function scrollToSection(id) {
+        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+  
